@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just be mjsexpress brutal</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- BOOTSTRAP-JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+     <header></header>
+
+     <footer></footer>
+
+
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+         <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">
+              <img src="express-delivery-logo_1205884-18759.avif" alt="Logo" style="width:40px;" class="me-2">
+              PANU EXPRESS
+            </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" >
+            <span class="navbar-toggler-icon"></span>
+          </button>  
+
+         <form class="d-flex">
+            <p style="color: white;">BOOK NOW!</p>
+            <button class="btn btn-primary" type="submit">PANU EXPRESS</button>
+         </form>
+
+         </nav>
+
+
+         <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+                © Arbison, Niosco, Pacana, Uclaray / Grade 9 Sapphire.
+        </footer>   
+
+     </nav>
+
+    </div>
+
+         <main class="text-center">
+         <div class="container p-5 mt-5 bg-light text-dark center rounded-3">
+            <img src="express-delivery-logo_1205884-18759.avif" alt="Circle Image" width="200" height="200"> <br> <br>
+            <h2>WELCOME TO PANU EXPRESS GUIDE CLICK BELOW TO SEE THE INSTRUCTIONS</h2>
+         <button type="button" class="btn btn-primary" onclick="checkInstruction()">click to see instructions</button>
+         <button type="button" class="btn btn-secondary" onclick="location.reload()">RELOAD!</button>
+         <div id="instruction"></div> <br>
+            
+        </div>
+     </div>
+      
+       <main class="text-center">
+       <div class="container p-5 mt-3 bg-light text-dark rounded-3">
+       <h1>PANU EXPRESS</h1>
+       <img src="images.png" alt="Brand Image" width="200" height="200">
+       <h1>DISCOUNTED FARE</h1>
+       <input type="text" id="budget" placeholder="Enter your fare price" class="form-control w-50 mx-auto mb-3">
+       <h1>DROP OFF LOCATION</h1>
+       <input type="text" id="dropoff" placeholder="Enter your drop-off location" class="form-control w-50 mx-auto mb-3">
+       
+       <div class="d-flex justify-content-center gap-2">
+       <button type="button" class="btn btn-success" onclick="checkDiscount()">DISCOUNTED FARE</button>
+       <div id="discount"></div>
+       <button type="button" class="btn btn-primary" onclick="seeLocation()">REGULAR FARE</button>
+       <div id="location"></div>
+       </div>
+        </div>
+     </main>
+  
+ 
+
+     <script src="main.js"></script>
+
+</body>
+</html>
